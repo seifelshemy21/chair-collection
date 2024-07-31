@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+:root{
+    --main_color:#E99C2E;
+    --gray_color:#9D9285;
+    --p_color:#A09E9C;
+    --h_color:#626161;
+    --background_color:#e3e6f19f;
+}
+p{
+    font-size: 20px;
+    color: var(--p_color);
+}
+h2{
+    margin-bottom: 5rem;
+}
+section{
+    margin-top: 10rem;
+}
+a{
+    text-decoration: none;
+    color: var(--h_color);
+}
+span{
+    color: var(--main_color);
+}
+header{
+    background-color: var(--background_color);
+    box-sizing: border-box;
+}
+header p{
+    font-size: 30px;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    font-size: 25px;
+}
+header ul li a:hover{
+    color: var(--main_color);
+    border-bottom:2px solid var(--main_color);
+}
+header i{
+    font-size: 20px;
+    margin: 10px;
+}
+header section{
+    margin-top: 5rem;
+}
+header section h4{
+    color: var(--gray_color);
+}
+header section h1{
+    font-size: 50px;
+    color: var(--h_color);
+}
+
+header section blockquote{
+    color: black;
+    font-size: 20px;
+}
+header section blockquote del{
+    color: var(--p_color);
+}
+.btn-one{
+    background-color: var(--main_color);
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    text-transform: capitalize;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.btn-one:hover{
+    background: none;
+    color: var(--main_color);
+}
+.btn-tow{
+    background: none;
+    padding: 5px 15px 5px 15px;
+    color:var(--main_color);
+    font-size: 25px;
+    border: none;
+    text-transform: capitalize;
+}
+.populer{
+    background-color: var(--background_color);
+}
+.sale{
+    position: relative;
+    margin-bottom: 5rem;
+    background-color: var(--background_color);
+    padding: 2rem;
+}
+
+.brown{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: brown;
+    color: white;
+    width: 50px;
+    padding: 5px;
+}
+.green{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: green;
+    color: white;
+    width: 50px;
+    padding: 5px;
+}
+.sofa-collection{
+    background-image: 
+    linear-gradient(to left, rgba(0, 0, 0, 0.199), rgb(0, 0, 0)),
+    url(images/collection/sofa-collection-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+.sofa-collection h3{
+    color: white;
+}
+.sofa-collection .des{
+    position: relative;
+    top: 100px;
+}
+footer{
+    margin-top: 6rem;
+}
+footer ul{
+    list-style-type: none;
+    color: var(--gray_color);
+}
+footer h5{
+    color: var(--h_color);
+}
+
+
