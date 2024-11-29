@@ -12,19 +12,25 @@
 
 <body>
     <header class="container-fluid">
-        <nav class="d-flex justify-content-between text-center">
+        <nav class="d-flex justify-content-between text-center navbar navbar-expand-lg">
             <div class="col-md-3">
                 <p>sine <span>mkt.</span></p>
             </div>
-            <div  class=" container col-md-6">
-                <ul class="d-flex justify-content-evenly">
-                    <li><a href="">home</a></li>
-                    <li><a href="">new arrival</a></li>
-                    <li><a href="">features</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">contact</a></li>
-                </ul>
+            <div class="col-md-6 container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div  class=" container collapse navbar-collapse"  id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                        <li class="nav-item"><a  href="">home</a></li>
+                        <li class="nav-item"><a  href="">new arrival</a></li>
+                        <li class="nav-item"><a  href="">features</a></li>
+                        <li class="nav-item"><a  href="">blog</a></li>
+                        <li class="nav-item"><a  href="">contact</a></li>
+                    </ul>
+                </div>
             </div>
+       
             <div class="icon col-md-3">
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a href=""><i class="fa-solid fa-gear"></i></a>
@@ -211,17 +217,17 @@
         <h2 class="text-center"> latest blog</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/blog/b1.jpg" alt="">
+                    <img src="images/blog/b1.jpg" width="100%" alt="">
                     <h6>Lorem, ipsum dolor sit amet consectetur adipisicing.</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam delectus sunt esse aliquid totam exercitationem nam hic placeat. Obcaecati!</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/blog/b2.jpg" alt="">
+                    <img src="images/blog/b2.jpg" width="100%" alt="">
                     <h6>Lorem, ipsum dolor sit amet consectetur adipisicing.</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam delectus sunt esse aliquid totam exercitationem nam hic placeat. Obcaecati!</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/blog/b3.jpg" alt="">
+                    <img src="images/blog/b3.jpg" width="100%" alt="">
                     <h6>Lorem, ipsum dolor sit amet consectetur adipisicing.</h6>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam delectus sunt esse aliquid totam exercitationem nam hic placeat. Obcaecati!</p>
                 </div>
@@ -230,47 +236,48 @@
     </section>
     <section class="container-fluid">
             <div class="row justify-content-center text-center">
-                <div class="col-md-2">
+                <div class="col">
                     <img src="images/clients/c1.png" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img src="images/clients/c2.png" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img src="images/clients/c3.png" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img src="images/clients/c4.png" alt="">
                 </div>
-                <div class="col-md-2">
+                <div class="col">
                     <img src="images/clients/c5.png" alt="">
                 </div>
             </div>
     </section>
-    <footer class="container">
-        <div class="d-flex justify-content-between text-start align-items-center">
-            <ul>
+    <footer >
+       <div class="container">
+        <div class="row justify-content-between text-start align-items-center">
+            <ul  class=" col">
                 <h5>information</h5>
                 <li>about us</li>
                 <li>contact us</li>
                 <li>news</li>
                 <li>store</li>
             </ul>
-            <ul>
+            <ul class=" col ">
                 <h5>information</h5>
                 <li>about us</li>
                 <li>contact us</li>
                 <li>news</li>
                 <li>store</li>
             </ul> 
-            <ul>
+            <ul class=" col">
                 <h5>information</h5>
                 <li>about us</li>
                 <li>contact us</li>
                 <li>news</li>
                 <li>store</li>
             </ul> 
-            <ul>
+            <ul class=" col">
                 <h5>information</h5>
                 <li>about us</li>
                 <li>contact us</li>
@@ -278,11 +285,11 @@
                 <li>store</li>
             </ul>
         </div>
+       </div>
     </footer>
     
 
     <script src="bootstrab/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
